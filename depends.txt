@@ -1,0 +1,14 @@
+default?
+doors?
+farming?
+flowers?
+dye?
+hudbars?
+3d_armor?
+shields?
+tnt?
+wool?
+porretes?
+tradutor?
+antipvp?
+sfinv?

@@ -1,0 +1,6 @@
+Mod Atualizar
+===================
+
+Esse mod trabalha atualizando altomaticamente
+alguns parametros do subgame minetest_game para
+minemacro
