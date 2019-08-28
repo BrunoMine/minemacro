@@ -4,6 +4,7 @@ farming?
 flowers?
 dye?
 hudbars?
+hbhunger?
 3d_armor?
 shields?
 tnt?

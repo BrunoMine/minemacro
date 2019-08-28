@@ -1,8 +1,13 @@
---
--- Mod Atualizador
---
--- Para comidas
---
+--[[
+	Mod Minemacro para Minetest
+	Copyright (C) 2017 BrunoMine (https://github.com/BrunoMine)
+	
+	Recebeste uma cópia da GNU Lesser General
+	Public License junto com esse software,
+	se não, veja em <http://www.gnu.org/licenses/>. 
+	
+	Alterações para hbhunger
+  ]]
 
 local register_food = hbhunger.register_food
 
@@ -21,12 +26,6 @@ end
 
 if minetest.get_modpath("flowers") ~= nil then
 	register_food("flowers:mushroom_brown", 1)
-end
-
-if minetest.get_modpath("macroplantas") ~= nil then
-	if minetest.get_modpath("macroplantas").."/melancia.lua" ~= nil then
-		register_food("macroplantas:pedaco_melancia", 1)
-	end
 end
 
 if minetest.get_modpath("oficios:basicos") ~= nil then

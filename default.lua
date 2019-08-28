@@ -390,7 +390,7 @@ if minetest.get_modpath("hbhunger") ~= nil then
         end
 end
 
--- Abm que faz nuvem sumir
+-- ABM que faz nuvem sumir
 minetest.register_abm({
 	nodenames = {"default:cloud"},
 	interval = 10,

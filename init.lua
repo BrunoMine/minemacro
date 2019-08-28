@@ -16,11 +16,9 @@ local lista = {
 	"farming",
 	"tnt",
 	"wool",
-	"sfinv",
 	-- Avulsos
 	"creatures",
 	"3d_armor",
-	"antipvp",
 	"mobs",
 	"itemframes",
 	"mesecons",
@@ -39,11 +37,11 @@ end
 -- Notificador de Inicializador
 local notificar = function(msg)
 	if minetest.setting_get("log_mods") then
-		minetest.debug("[ATUALIZADOR]"..msg)
+		minetest.debug("[Minemacro (mod)]"..msg)
 	end
 end
 
-local modpath = minetest.get_modpath("atualizador")
+local modpath = minetest.get_modpath("minemacro")
 
 -- Carregar scripts de atualização de cada mod
 notificar("Carregando...")
